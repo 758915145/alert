@@ -16,4 +16,5 @@
 [demo](https://rawgit.com/758915145/alert/master/example.html)
 
 ##兼容性##
-* IE9+
+* IE6+
+* IE6中不支持position:fixed，所以IE6中使用position:absolute

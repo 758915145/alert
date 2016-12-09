@@ -8,7 +8,7 @@
         <button type="button">点击我</button>
         <script src="./alert.js"></script>
         <script>
-            document.querySelector('button').onclick = function(){
+            document.getElementsByTagName('button')[0].onclick = function(){
                 alert({title:'温馨提示',content:'您好 , 欢迎光临'});
             };
         </script>
